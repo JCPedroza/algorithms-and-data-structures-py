@@ -1,7 +1,7 @@
 def insertion_sort(nums: list[float]) -> list[float]:
     """Sorts a list in-place using the insertion sort approach.
 
-    This version only performs one comparison and moves one number per
+    This version performs one comparison and moves one number per
     iteration, an improvement over the naive approach.
 
     Time complexity: O(n) best O(n^2) worst O(n^2) average.
@@ -14,22 +14,22 @@ def insertion_sort(nums: list[float]) -> list[float]:
         The sorted list.
     """
 
-    for target in range(1, len(nums)):
-        swap = target
-        temp = nums[swap]
+    for indx in range(1, len(nums)):
+        buffer = nums[indx]
 
-        if nums[0] > nums[swap]:
-            while swap > 0:
-                nums[swap] = nums[swap - 1]
-                swap -= 1
+        if nums[0] > nums[indx]:
+            while indx > 0:
+                nums[indx] = nums[indx - 1]
+                indx -= 1
 
-            nums[0] = temp
+            nums[0] = buffer
+
         else:
-            while nums[swap - 1] > temp:
-                nums[swap] = nums[swap - 1]
-                swap -= 1
+            while nums[indx - 1] > buffer:
+                nums[indx] = nums[indx - 1]
+                indx -= 1
 
-            nums[swap] = temp
+            nums[indx] = buffer
 
     return nums
 
