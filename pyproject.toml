@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "algorithms_and_data_structures"
+version = "0.1.0"
+description = ""
+authors = ["JCPedroza <nemesis4go10@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+mypy = "^0.942"
+prospector = "^1.7.7"
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
