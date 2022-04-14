@@ -25,4 +25,4 @@ def insertion_sort(nums: list[float]) -> list[float]:
 
 
 algorithm = insertion_sort
-name = 'naive'
+name = 'in-place naive'
