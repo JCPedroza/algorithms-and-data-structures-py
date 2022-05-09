@@ -1,0 +1,2 @@
+algorithm = sum
+name = 'native'
