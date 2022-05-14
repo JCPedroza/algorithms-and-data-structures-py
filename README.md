@@ -16,6 +16,10 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 
 - Package manager: [poetry][80]
 - Unit testing: [pytest][81]
+- Static type check: [mypy][82]
+- Style, linting, and other static analysis:
+  - [flake8][83]
+  - [prospector][84]
 
 ## Similar Resources
 
@@ -59,6 +63,9 @@ You can find similar repositories for other languages in the following links:
 
 [80]: https://python-poetry.org/
 [81]: https://docs.pytest.org
+[82]: http://mypy-lang.org/
+[83]: https://flake8.pycqa.org/
+[84]: https://prospector.landscape.io/en/master/
 
 [101]: https://github.com/JCPedroza/algorithms-and-data-structures-js
 [102]: https://github.com/JCPedroza/algorithms-and-data-structures-ocaml
