@@ -1,6 +1,6 @@
 # Python Algorithms & Data Structures
 
-[![codacy code quality][5]][6] [![codefactor code quality][7]][8]
+[![lint: flake8][1]][2] [![test: pytest][3]][4] [![codacy code quality][5]][6] [![codefactor code quality][7]][8]
 
 This repository is dedicated to the study of algorithms, data structures,
 Python, and to our love for programming and software engineering!
@@ -11,6 +11,11 @@ Python, and to our love for programming and software engineering!
 [![issues closed][31]][32] [![issues pr][33]][34] [![issues pr closed][35]][36]
 
 Code reviews, pull requests, issues, and discussions are always welcome!
+
+## Main Toolchain
+
+- Package manager: [poetry][80]
+- Unit testing: [pytest][81]
 
 ## Similar Resources
 
@@ -23,6 +28,10 @@ You can find similar repositories for other languages in the following links:
 
 [![total lines][51]][52] [![code size][53]][54] [![repo size][55]][56]
 
+[1]: https://img.shields.io/badge/lint-flake8-blue.svg
+[2]: http://flake8.pycqa.org/
+[3]: https://img.shields.io/badge/test-pytest-blue.svg
+[4]: https://docs.pytest.org/
 [5]: https://app.codacy.com/project/badge/Grade/7ffcb99f0c674b2abab6c7ed4915a280
 [6]: https://www.codacy.com/gh/JCPedroza/algorithms-and-data-structures-py/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/algorithms-and-data-structures-py&amp;utm_campaign=Badge_Grade
 [7]: https://www.codefactor.io/repository/github/jcpedroza/algorithms-and-data-structures-py/badge
@@ -47,6 +56,9 @@ You can find similar repositories for other languages in the following links:
 [54]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-py
 [55]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-py
 [56]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-py
+
+[80]: https://python-poetry.org/
+[81]: https://docs.pytest.org
 
 [101]: https://github.com/JCPedroza/algorithms-and-data-structures-js
 [102]: https://github.com/JCPedroza/algorithms-and-data-structures-ocaml
