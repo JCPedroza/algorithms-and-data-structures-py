@@ -25,6 +25,7 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 
 You can find similar repositories for other languages in the following links:
 
+- [Haskell][103]
 - [JavaScript][101]
 - [OCaml][102]
 
@@ -69,3 +70,4 @@ You can find similar repositories for other languages in the following links:
 
 [101]: https://github.com/JCPedroza/algorithms-and-data-structures-js
 [102]: https://github.com/JCPedroza/algorithms-and-data-structures-ocaml
+[103]: https://github.com/JCPedroza/algorithms-and-data-structures-hs
