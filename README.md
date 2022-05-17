@@ -21,6 +21,26 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [flake8][83]
   - [prospector][84]
 
+## Poetry & Dependency Management
+
+Poetry is our package manager. These are some important commands.
+
+```bash
+poetry install          # Install all dependencies included in pyproject.toml
+poetry update           # Update dependencies to latest versions
+poetry add <dependency> # Install new dependency
+
+poetry show           # List all available packages
+poetry show -o        # List all outdated packages
+poetry show <package> # See package details
+
+poetry shell         # Activate virtual envvironment
+poetry run <command> # Run command inside virtual environment
+
+poetry check            # Validate structure of pyproject.toml
+poetry search <package> # Search packages on remote index
+```
+
 ## Similar Resources
 
 You can find similar repositories for other languages in the following links:
