@@ -1,0 +1,13 @@
+# File ignore for line count shield
+
+# Ignore these directories
+.git/
+.github/
+docs/
+
+# Ignore these files
+LICENSE
+.gitignore
+*.toml
+*.lock
+*.md
