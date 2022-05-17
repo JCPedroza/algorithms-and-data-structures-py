@@ -13,6 +13,9 @@ class Queue:
         return len(self.list)
 
     def enqueue(self, item: Any) -> None:
+        """Add an item to the back of the queue.
+        :param item: Item to be added to queue.
+        """
         self.list.append(item)
 
     def dequeue(self) -> Any:
