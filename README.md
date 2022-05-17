@@ -24,7 +24,7 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [flake8][83]
   - [prospector][84]
 
-## Poetry & Dependency Management
+## Dependency Management with Poetry
 
 Poetry is our package manager. These are some important commands.
 
