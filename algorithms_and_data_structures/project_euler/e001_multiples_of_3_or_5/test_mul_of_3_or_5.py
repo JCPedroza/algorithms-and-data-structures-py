@@ -1,7 +1,7 @@
-from . import mul_of3or5_naive
+from . import mul_of_3_or_5_naive
 
 test_subjects = [
-    mul_of3or5_naive
+    mul_of_3_or_5_naive
 ]
 
 

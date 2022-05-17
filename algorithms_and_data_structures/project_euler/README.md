@@ -1,6 +1,6 @@
 # Project Euler
 
-From Project Euler:
+From [Project Euler][1]:
 
 > Project Euler is a series of challenging mathematical/computer programming
 problems that will require more than just mathematical insights to solve.
@@ -8,7 +8,7 @@ Although mathematics will help you arrive at elegant and efficient methods, the
 use of a computer and programming skills will be required to solve most
 problems.
 
-From Wikipedia:
+From [Wikipedia][2]:
 
 > Project Euler (named after Leonhard Euler) is a website dedicated to a series
 of computational problems intended to be solved with computer programs. The

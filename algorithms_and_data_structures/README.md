@@ -1,19 +1,23 @@
 # Algorithms and Data Structures
 
-Each implementation module includes at least two things
+Each implementation module includes the algorithm, or data structure, or
+solution, binded to a variable that has a specific name for each section:
 
-1) Implementation binded to an identifier
-  - For algorithms, identifier is `algorithm`
-  - For data structures, identifier is `structure`
-  - For project euler, identifier is `solution`
+- For algorithms, the identifier is `algorithm`
+- For data structures, the identifier is `structure`
+- For project euler, the identifier is `solution`
 
-2) A name that identifies the implementation.
+Every implementation module must also include a `name` field that identifies
+and differentiates that implementation from others.
 
-This is the expected module interface for interoperability, including
-unit testing.
+In other words, the expected interface for all implementations has two
+components:
 
-# Algorithms
+- The implementation of the algorithm, or data structure, or solution itself
+- And the name of the implementation
 
-# Data Structures
+## Algorithms
 
-# Project Euler
+## Data Structures
+
+## Project Euler
