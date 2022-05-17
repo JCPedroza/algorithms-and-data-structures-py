@@ -1,4 +1,3 @@
-from attr import validate
 from . import queue_list
 
 test_subjects = [
