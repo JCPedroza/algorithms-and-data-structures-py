@@ -14,9 +14,12 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 
 ## Main Toolchain
 
-- Package manager: [poetry][80]
-- Unit testing: [pytest][81]
-- Static type check: [mypy][82]
+- Package manager:
+  - [poetry][80]
+- Unit testing:
+  - [pytest][81]
+- Static type check:
+  - [mypy][82]
 - Style, linting, and other static analysis:
   - [flake8][83]
   - [prospector][84]
