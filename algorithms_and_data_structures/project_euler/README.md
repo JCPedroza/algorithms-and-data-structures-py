@@ -1,14 +1,12 @@
 # Project Euler
 
-From [Project Euler][1]:
-
 > Project Euler is a series of challenging mathematical/computer programming
 problems that will require more than just mathematical insights to solve.
 Although mathematics will help you arrive at elegant and efficient methods, the
 use of a computer and programming skills will be required to solve most
 problems.
 
-From [Wikipedia][2]:
+From [Project Euler][1]
 
 > Project Euler (named after Leonhard Euler) is a website dedicated to a series
 of computational problems intended to be solved with computer programs. The
@@ -21,6 +19,8 @@ time using an efficient algorithm, in any programming language, on a modestly
 powered computer. As of 27 April 2021, Project Euler has more than 1,000,000
 users who have solved at least one problem, in over 100 different programming
 languages.
+
+From [Wikipedia][2]
 
 ## Resources
 
