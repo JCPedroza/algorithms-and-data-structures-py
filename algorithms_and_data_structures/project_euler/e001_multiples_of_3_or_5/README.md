@@ -8,7 +8,7 @@ Find the sum of all the multiples of 3 or 5 below `n`.
 The function signature is
 
 ```python
-def mul_of3or5(limit: int) -> int
+def mul_of_3_or_5(limit: int) -> int
 ```
 
 ## References
