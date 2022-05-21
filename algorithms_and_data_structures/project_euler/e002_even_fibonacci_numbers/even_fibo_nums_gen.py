@@ -2,25 +2,29 @@ from typing import Generator
 
 
 def fibo_even_gen(limit: int) -> Generator[int, None, None]:
-    """Generate even fibonacci numbers <= the given limit.
+    """Generate even fibonacci numbers <= the given limit, without
+    using trial division.
 
     :param limit: Max value of the output.
     :yield: Even fibonacci number.
     """
-    fibo_current = 2
-    fibo_next = 3
+    current = 2 # Every third fibonacci number is even
+    mid = 3
+    last = 5
 
-    while (fibo_current <= limit):
-        yield fibo_current
-        fibo_current, fibo_next = fibo_next, fibo_current + fibo_next
+    while (current <= limit):
+        yield current
 
-        while (fibo_current % 2 != 0):
-            fibo_current, fibo_next = fibo_next, fibo_current + fibo_next
+        current = mid + last
+        mid = last + current
+        last = current + mid
+
 
 
 def fibo_even_sum(limit: int) -> int:
     """Compute the sum of the even fibonacci numbers that are <= limit
-    using a while loop with accumulator variable.
+    using a while loop with accumulator variable and no trial division
+    optimization.
 
     :param limit: Limit of the fibonacci range to sum.
     :return: Sum of the even fibonacci numbers that are <= limit.
@@ -29,4 +33,4 @@ def fibo_even_sum(limit: int) -> int:
 
 
 solution = fibo_even_sum
-name = 'generator and native sum '
+name = 'generator and native sum'
