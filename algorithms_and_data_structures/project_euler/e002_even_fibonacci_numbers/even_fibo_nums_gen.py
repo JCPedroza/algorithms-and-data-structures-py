@@ -8,7 +8,7 @@ def fibo_even_gen(limit: int) -> Generator[int, None, None]:
     :param limit: Max value of the output.
     :yield: Even fibonacci number.
     """
-    current = 2 # Every third fibonacci number is even
+    current = 2  # Every third fibonacci number is even
     mid = 3
     last = 5
 
@@ -18,7 +18,6 @@ def fibo_even_gen(limit: int) -> Generator[int, None, None]:
         current = mid + last
         mid = last + current
         last = current + mid
-
 
 
 def fibo_even_sum(limit: int) -> int:
