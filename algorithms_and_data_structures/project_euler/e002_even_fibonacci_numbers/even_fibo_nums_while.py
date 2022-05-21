@@ -19,4 +19,4 @@ def fibo_even_sum(limit: int) -> int:
 
 
 solution = fibo_even_sum
-name = 'while loop with accumulator'
+name = 'while loop with accumulator and trial division'
