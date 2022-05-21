@@ -1,6 +1,6 @@
 def fibo_even_sum(limit: int) -> int:
     """Compute the sum of the even fibonacci numbers that are <= limit
-    using a while loop with accumulator.
+    using a while loop with accumulator and trial division.
 
     :param limit: Max value of the fibonacci range to sum.
     :return: Sum of the even fibonacci numbers that are <= limit.
