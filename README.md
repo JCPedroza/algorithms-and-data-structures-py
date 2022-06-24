@@ -1,6 +1,8 @@
 # Python Algorithms & Data Structures
 
-[![lint: flake8][1]][2] [![test: pytest][3]][4] [![codacy code quality][5]][6] [![codefactor code quality][7]][8]
+[![license MIT][9]][10] [![style black][11]][12] [![lint: flake8][1]][2]
+[![test: pytest][3]][4] [![codacy code quality][5]][6]
+[![codefactor code quality][7]][8]
 
 This repository is dedicated to the study of algorithms, data structures,
 Python, and to our love for programming and software engineering!
@@ -64,6 +66,10 @@ You can find similar repositories for other languages in the following links:
 [6]: https://www.codacy.com/gh/JCPedroza/algorithms-and-data-structures-py/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/algorithms-and-data-structures-py&amp;utm_campaign=Badge_Grade
 [7]: https://www.codefactor.io/repository/github/jcpedroza/algorithms-and-data-structures-py/badge
 [8]: https://www.codefactor.io/repository/github/jcpedroza/algorithms-and-data-structures-py
+[9]: https://img.shields.io/github/license/jcpedroza/algorithms-and-data-structures-py
+[10]: https://en.wikipedia.org/wiki/MIT_License
+[11]: https://img.shields.io/badge/code%20style-black-000000.svg
+[12]: https://github.com/psf/black
 
 [25]: https://img.shields.io/github/contributors/JCPedroza/algorithms-and-data-structures-py
 [26]: https://github.com/JCPedroza/algorithms-and-data-structures-py/graphs/contributors
