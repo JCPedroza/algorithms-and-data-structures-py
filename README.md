@@ -22,8 +22,9 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [pytest][81]
 - Static type check
   - [mypy][82]
-- Style, linting, and other static analysis
+- Style, linting, formatting, and other static analysis
   - [flake8][83]
+  - [black][85]
   - [prospector][84]
 
 ## Dependency Management with Poetry
@@ -52,6 +53,7 @@ You can find similar repositories for other languages in the following links:
 
 - [Haskell][103]
 - [JavaScript][101]
+- [SML][104]
 - [OCaml][102]
 
 ---
@@ -96,7 +98,9 @@ You can find similar repositories for other languages in the following links:
 [82]: http://mypy-lang.org/
 [83]: https://flake8.pycqa.org/
 [84]: https://prospector.landscape.io/en/master/
+[85]: https://black.readthedocs.io/en/stable/the_black_code_style/index.html
 
 [101]: https://github.com/JCPedroza/algorithms-and-data-structures-js
 [102]: https://github.com/JCPedroza/algorithms-and-data-structures-ocaml
 [103]: https://github.com/JCPedroza/algorithms-and-data-structures-hs
+[104]: https://github.com/JCPedroza/algorithms-and-data-structures-sml
