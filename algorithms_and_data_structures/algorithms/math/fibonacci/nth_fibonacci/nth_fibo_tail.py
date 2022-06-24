@@ -1,10 +1,11 @@
 def fibo(index: int) -> int:
-    '''Compute the fibonacci number located at the given index, using
+    """Compute the fibonacci number located at the given index, using
     pattern matching and tail recursion.
 
     :param index: Location of the fibonacci number.
     :return: Fibonacci number located at the given index.
-    '''
+    """
+
     def loop(cur: int, nxt: int, index: int) -> int:
         match index:
             case 0:
@@ -16,4 +17,4 @@ def fibo(index: int) -> int:
 
 
 algorithm = fibo
-name = 'pattern matching tail racursion'
+name = "pattern matching tail racursion"

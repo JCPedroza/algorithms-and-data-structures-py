@@ -23,11 +23,11 @@ def mul_of_3_or_5(limit: int) -> int:
     :return: Sum of all the multiples of 3 or 5 below the given limit.
     """
     return (
-        sum_divisible_by(3, limit - 1) +
-        sum_divisible_by(5, limit - 1) -
-        sum_divisible_by(15, limit - 1)
+        sum_divisible_by(3, limit - 1)
+        + sum_divisible_by(5, limit - 1)
+        - sum_divisible_by(15, limit - 1)
     )
 
 
 solution = mul_of_3_or_5
-name = 'analytic optimization'
+name = "analytic optimization"

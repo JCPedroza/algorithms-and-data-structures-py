@@ -11,7 +11,7 @@ test_subjects = [
     nth_fibo_tail,
     nth_fibo_recursive,
     nth_fibo_memo,
-    nth_fibo_analytic
+    nth_fibo_analytic,
 ]
 
 

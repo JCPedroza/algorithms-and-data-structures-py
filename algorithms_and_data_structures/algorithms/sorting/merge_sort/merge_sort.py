@@ -14,7 +14,7 @@ def merge(left: list[float], right: list[float]) -> list[float]:
 
     merged = []
 
-    while (left and right):
+    while left and right:
         merged.append(left.pop(0) if left[0] <= right[0] else right.pop(0))
 
     return [*merged, *left, *right]
@@ -33,7 +33,7 @@ def merge_sort(nums: list[float]) -> list[float]:
         Sorted list of numbers.
     """
 
-    if (len(nums) < 2):
+    if len(nums) < 2:
         return nums
 
     mid = len(nums) // 2

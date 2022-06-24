@@ -2,11 +2,7 @@ from . import mul_of_3_or_5_filter
 from . import mul_of_3_or_5_analytic
 from . import mul_of_3_or_5_tail
 
-test_subjects = [
-    mul_of_3_or_5_filter,
-    mul_of_3_or_5_analytic,
-    mul_of_3_or_5_tail
-]
+test_subjects = [mul_of_3_or_5_filter, mul_of_3_or_5_analytic, mul_of_3_or_5_tail]
 
 
 def test_mul_of3or5():

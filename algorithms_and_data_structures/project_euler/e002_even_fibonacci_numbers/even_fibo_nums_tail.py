@@ -5,8 +5,9 @@ def fibo_even_sum(limit: int) -> int:
     :param limit: Max value of the output.
     :return: Even fibonacci number.
     """
+
     def loop(acc, fibo, nxt_fibo):
-        if (fibo > limit):
+        if fibo > limit:
             return acc
         return loop(acc + fibo, nxt_fibo, 4 * nxt_fibo + fibo)
 
@@ -14,4 +15,4 @@ def fibo_even_sum(limit: int) -> int:
 
 
 solution = fibo_even_sum
-name = 'tail recursion with analytic optimization'
+name = "tail recursion with analytic optimization"

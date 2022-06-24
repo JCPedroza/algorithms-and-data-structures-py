@@ -14,4 +14,4 @@ def bubble_sort(nums: list[float]) -> list[float]:
 
 
 algorithm = bubble_sort
-name = 'optimized'
+name = "optimized"

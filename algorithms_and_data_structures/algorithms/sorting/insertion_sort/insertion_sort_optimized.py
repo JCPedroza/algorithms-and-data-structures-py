@@ -35,4 +35,4 @@ def insertion_sort(nums: list[float]) -> list[float]:
 
 
 algorithm = insertion_sort
-name = 'in-place optimized'
+name = "in-place optimized"

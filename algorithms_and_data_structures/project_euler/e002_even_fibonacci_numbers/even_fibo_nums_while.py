@@ -9,8 +9,8 @@ def fibo_even_sum(limit: int) -> int:
     fibo_current = 0
     fibo_next = 1
 
-    while (fibo_current <= limit):
-        if (fibo_current % 2 == 0):
+    while fibo_current <= limit:
+        if fibo_current % 2 == 0:
             even_sum += fibo_current
 
         fibo_current, fibo_next = fibo_next, fibo_current + fibo_next
@@ -19,4 +19,4 @@ def fibo_even_sum(limit: int) -> int:
 
 
 solution = fibo_even_sum
-name = 'while loop with accumulator and trial division'
+name = "while loop with accumulator and trial division"

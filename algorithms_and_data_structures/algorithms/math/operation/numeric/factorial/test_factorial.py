@@ -11,7 +11,7 @@ test_subjects = [
     factorial_recursive,
     factorial_reduce,
     factorial_match,
-    factorial_tail
+    factorial_tail,
 ]
 
 

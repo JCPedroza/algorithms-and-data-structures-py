@@ -1,10 +1,10 @@
 def fibo(index: int) -> int:
-    '''Compute the fibonacci number located at the given index, using
+    """Compute the fibonacci number located at the given index, using
     recursion with memoized results.
 
     :param index: Location of the fibonacci number.
     :return: Fibonacci number located at the given index.
-    '''
+    """
     results: dict[int, int] = {0: 0, 1: 1}
 
     def loop(index: int) -> int:
@@ -18,4 +18,4 @@ def fibo(index: int) -> int:
 
 
 algorithm = fibo
-name = 'recursion with memoization'
+name = "recursion with memoization"

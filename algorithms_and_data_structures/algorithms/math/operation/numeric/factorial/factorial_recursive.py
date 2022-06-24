@@ -6,4 +6,4 @@ def factorial(num: int) -> int:
 
 
 algorithm = factorial
-name = 'recursive if'
+name = "recursive if"

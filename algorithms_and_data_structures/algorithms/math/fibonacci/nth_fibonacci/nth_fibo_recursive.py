@@ -1,10 +1,10 @@
 def fibo(index: int) -> int:
-    '''Compute the fibonacci number located at the given index, using
+    """Compute the fibonacci number located at the given index, using
     if conditional structure and recursion.
 
     :param index: Location of the fibonacci number.
     :return: Fibonacci number located at the given index.
-    '''
+    """
     if index == 0:
         return 0
     if index == 1:
@@ -14,4 +14,4 @@ def fibo(index: int) -> int:
 
 
 algorithm = fibo
-name = 'if conditional recursion'
+name = "if conditional recursion"

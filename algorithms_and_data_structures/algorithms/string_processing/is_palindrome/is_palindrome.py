@@ -2,7 +2,7 @@ import re
 
 
 def normalize(text: str) -> str:
-    return re.sub(r'[\s.:,;!?]', '', text).casefold()
+    return re.sub(r"[\s.:,;!?]", "", text).casefold()
 
 
 def is_palindrome(text: str) -> bool:
@@ -22,4 +22,4 @@ def is_palindrome(text: str) -> bool:
 
 
 algorithm = is_palindrome
-name = 'simple'
+name = "simple"

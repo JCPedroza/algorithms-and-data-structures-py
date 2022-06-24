@@ -13,7 +13,7 @@ test_subjects = [
     vectorsum_reduce,
     vectorsum_match,
     vectorsum_recursive,
-    vectorsum_tail
+    vectorsum_tail,
 ]
 
 

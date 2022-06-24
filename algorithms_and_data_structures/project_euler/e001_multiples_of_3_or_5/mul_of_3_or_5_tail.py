@@ -5,6 +5,7 @@ def multiples_of_3_or_5(limit: int) -> int:
     :param limit: Limit of the values to sum (exclusive).
     :return: Sum of all the multiples of 3 or 5 below the given limit.
     """
+
     def loop(acc, num):
         if num < 1:
             return acc
@@ -16,4 +17,4 @@ def multiples_of_3_or_5(limit: int) -> int:
 
 
 solution = multiples_of_3_or_5
-name = 'tail recursion if'
+name = "tail recursion if"

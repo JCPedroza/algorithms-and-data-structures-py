@@ -12,7 +12,7 @@ def fibo_even_gen(limit: int) -> Generator[int, None, None]:
     mid = 3
     last = 5
 
-    while (current <= limit):
+    while current <= limit:
         yield current
 
         current = mid + last
@@ -32,4 +32,4 @@ def fibo_even_sum(limit: int) -> int:
 
 
 solution = fibo_even_sum
-name = 'generator with native sum and third fibo optimization'
+name = "generator with native sum and third fibo optimization"

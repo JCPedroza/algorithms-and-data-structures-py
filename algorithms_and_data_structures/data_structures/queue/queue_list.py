@@ -3,6 +3,7 @@ from typing import Any
 
 class Queue:
     """Implements a queue using native lists."""
+
     def __init__(self):
         self.list = []
 
@@ -32,4 +33,4 @@ class Queue:
 
 
 structure = Queue
-name = 'queue native list'
+name = "queue native list"

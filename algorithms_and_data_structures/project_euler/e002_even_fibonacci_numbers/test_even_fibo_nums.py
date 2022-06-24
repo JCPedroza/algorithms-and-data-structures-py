@@ -2,11 +2,7 @@ from . import even_fibo_nums_while
 from . import even_fibo_nums_gen
 from . import even_fibo_nums_tail
 
-test_subjects = [
-    even_fibo_nums_while,
-    even_fibo_nums_gen,
-    even_fibo_nums_tail
-]
+test_subjects = [even_fibo_nums_while, even_fibo_nums_gen, even_fibo_nums_tail]
 
 
 def test_even_fibo_nums():

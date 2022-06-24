@@ -7,4 +7,4 @@ def factorial(num: int) -> int:
 
 
 algorithm = factorial
-name = 'pattern matching'
+name = "pattern matching"

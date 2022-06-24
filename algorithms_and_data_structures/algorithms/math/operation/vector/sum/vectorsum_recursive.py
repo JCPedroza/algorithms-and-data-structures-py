@@ -1,9 +1,9 @@
 def vsum(nums: list[float]) -> float:
-    ''' Sum together all the numbers in a list using recursion and if.
+    """Sum together all the numbers in a list using recursion and if.
 
     :param nums: List of numbers.
     :returns: The sum of the numbers in the list.
-    '''
+    """
     if not nums:
         return 0
 
@@ -12,4 +12,4 @@ def vsum(nums: list[float]) -> float:
 
 
 algorithm = vsum
-name = 'recursive'
+name = "recursive"

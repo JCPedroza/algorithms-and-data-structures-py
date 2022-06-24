@@ -1,2 +1,2 @@
 algorithm = sum
-name = 'native'
+name = "native"

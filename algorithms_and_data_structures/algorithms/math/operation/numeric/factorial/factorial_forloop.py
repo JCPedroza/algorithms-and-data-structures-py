@@ -8,4 +8,4 @@ def factorial(num: int) -> int:
 
 
 algorithm = factorial
-name = 'for loop'
+name = "for loop"

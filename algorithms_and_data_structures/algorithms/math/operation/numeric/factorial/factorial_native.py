@@ -6,4 +6,4 @@ def factorial(num: int) -> int:
 
 
 algorithm = factorial
-name = 'built-in'
+name = "built-in"
