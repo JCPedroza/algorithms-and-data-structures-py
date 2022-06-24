@@ -4,7 +4,7 @@
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.rulers": [
-      80
+      88
     ],
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
