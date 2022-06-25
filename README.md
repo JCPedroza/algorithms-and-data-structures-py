@@ -47,6 +47,12 @@ poetry check            # Validate structure of pyproject.toml
 poetry search <package> # Search packages on remote index
 ```
 
+## Unit Testing with Poetry and Pytest
+
+```bash
+poetry run pytest # Run all unit tests
+```
+
 ## Similar Resources
 
 You can find similar repositories for other languages in the following links:
