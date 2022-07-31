@@ -1,5 +1,5 @@
 def two_sum(nums: list[int], target: int) -> tuple[int, int]:
-    """ Finds the index of two integers in a list where their sum equals the given
+    """Finds the index of two integers in a list where their sum equals the given
     target value.
 
     Time complexity: O(n²)
@@ -11,7 +11,7 @@ def two_sum(nums: list[int], target: int) -> tuple[int, int]:
     """
 
     for pivot_id, pivot in enumerate(nums):
-        for addend_id, addend in enumerate(nums[pivot_id + 1:], pivot_id + 1):
+        for addend_id, addend in enumerate(nums[pivot_id + 1 :], pivot_id + 1):
             if pivot + addend == target:
                 return pivot_id, addend_id
 

@@ -2,7 +2,7 @@ from typing import Dict
 
 
 def two_sum(nums: list[int], target: int) -> tuple[int, int]:
-    """ Finds the index of two integers in a list where their sum equals the given
+    """Finds the index of two integers in a list where their sum equals the given
     target value.
 
     Time complexity: O(n)
