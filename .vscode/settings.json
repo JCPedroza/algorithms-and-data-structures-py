@@ -26,8 +26,4 @@
     "python.linting.prospectorEnabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.enabled": true,
-
-    "python.venvFolders": [
-        "/home/piman/.cache/pypoetry"
-    ]
 }
