@@ -15,8 +15,8 @@ def add_linklists(anode: Option[Node], bnode: Option[Node]) -> Option[Node]:
 
     acurrent = anode
     bcurrent = bnode
-    head = Node(0)
-    result = head
+    buffer = Node(0)
+    result = buffer
     carry = 0
 
     while acurrent or bcurrent or carry:
@@ -33,7 +33,7 @@ def add_linklists(anode: Option[Node], bnode: Option[Node]) -> Option[Node]:
         acurrent = acurrent.nxt if acurrent else None
         bcurrent = bcurrent.nxt if bcurrent else None
 
-    return head.nxt
+    return buffer.nxt
 
 
 solution = add_linklists
