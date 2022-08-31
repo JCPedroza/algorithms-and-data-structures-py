@@ -1,16 +1,54 @@
 # Python Algorithms & Data Structures
 
-[![license MIT][9]][10] [![style black][11]][12] [![lint: flake8][1]][2]
-[![test: pytest][3]][4] [![codacy code quality][5]][6]
+[![license MIT][9]][10]
+[![style black][11]][12]
+[![lint: flake8][1]][2]
+[![test: pytest][3]][4]
+[![codacy code quality][5]][6]
 [![codefactor code quality][7]][8]
 
-This repository is dedicated to the study of algorithms, data structures,
-Python, and to our love for programming and software engineering!
+Algorithms and data structures implemented in Python. Here you'll find:
+
+- Implementations of algorithms and data structures
+- Solutions for problems, prompts, challenges, and popular interview questions
+
+## Usage
+
+### Installation
+
+To install the project dependencies, you can either use [poetry][80] and
+`poetry install` (recommended), or install the dependencies globally and manually using
+`pip install <dependencies>` and the dependency list in `pyproject.toml`.
+
+```bash
+git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.git
+cd algorithms-and-data-strcutrues-py
+poetry install # Install all packages in the local virtual environment
+```
+
+### Unit Testing
+
+```bash
+poetry run pytest # Run al unit tests using local virtual environment
+pytest            # Run all unit tests using global environment
+```
+
+### Other Poetry Commands
+
+```bash
+poetry shell         # Activate shell inside local virtual environment
+poetry run <command> # Run command inside local virtual environment
+poetry check         # Validate structure of pyproject.toml
+```
 
 ## Contributing
 
-[![contributors][25]][26] [![commit activity][27]][28] [![issues][29]][30]
-[![issues closed][31]][32] [![issues pr][33]][34] [![issues pr closed][35]][36]
+[![contributors][25]][26]
+[![commit activity][27]][28]
+[![issues][29]][30]
+[![issues closed][31]][32]
+[![issues pr][33]][34]
+[![issues pr closed][35]][36]
 
 Code reviews, pull requests, issues, and discussions are always welcome!
 
@@ -27,32 +65,6 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [black][85]
   - [prospector][84]
 
-## Dependency Management with Poetry
-
-Poetry is our package manager. These are some important commands.
-
-```bash
-poetry install          # Install all dependencies included in pyproject.toml
-poetry update           # Update dependencies to latest versions
-poetry add <dependency> # Install new dependency
-
-poetry show           # List all available packages
-poetry show -o        # List all outdated packages
-poetry show <package> # See package details
-
-poetry shell         # Activate virtual envvironment
-poetry run <command> # Run command inside virtual environment
-
-poetry check            # Validate structure of pyproject.toml
-poetry search <package> # Search packages on remote index
-```
-
-## Unit Testing with Poetry and Pytest
-
-```bash
-poetry run pytest # Run all unit tests
-```
-
 ## Similar Resources
 
 You can find similar repositories for other languages in the following links:
@@ -64,7 +76,9 @@ You can find similar repositories for other languages in the following links:
 
 ---
 
-[![total lines][51]][52] [![code size][53]][54] [![repo size][55]][56]
+[![total lines][51]][52]
+[![code size][53]][54]
+[![repo size][55]][56]
 
 [1]: https://img.shields.io/badge/lint-flake8-blue.svg
 [2]: http://flake8.pycqa.org/
