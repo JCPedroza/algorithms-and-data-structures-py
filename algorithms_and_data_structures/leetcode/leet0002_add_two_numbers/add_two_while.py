@@ -9,6 +9,8 @@ def add_linklists(
     bnode: Optional[ListNode],
 ) -> Optional[ListNode]:
     """Add two linked lists that represent digits in a number.
+    Uses: a while loop
+    Complexity: time O(n), space O(n)
     :param anode: First node of a linked list.
     :param bnode: First node of a linked list.
     :return: Sum of the two linked lists as a linked list.
