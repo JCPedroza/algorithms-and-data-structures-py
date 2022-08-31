@@ -9,8 +9,8 @@ def add_linklists(
     bnode: Optional[ListNode],
 ) -> Optional[ListNode]:
     """Add two linked lists that represent digits in a number.
-    Uses: a while loop
-    Complexity: time O(n), space O(n)
+    Uses a while loop.
+    Complexity: time O(n), space O(n).
     :param anode: First node of a linked list.
     :param bnode: First node of a linked list.
     :return: Sum of the two linked lists as a linked list.
@@ -18,8 +18,8 @@ def add_linklists(
 
     acurrent = anode
     bcurrent = bnode
-    dummy_head = ListNode(0)
-    outcurrent = dummy_head
+    head = ListNode(0)
+    result = head
     carry = 0
 
     while acurrent or bcurrent or carry:
@@ -30,13 +30,13 @@ def add_linklists(
         digit = total % 10
         carry = total // 10
         node = ListNode(digit)
-        outcurrent.nxt = node
-        outcurrent = outcurrent.nxt
+        result.nxt = node
+        result = result.nxt
 
         acurrent = acurrent.nxt if acurrent else None
         bcurrent = bcurrent.nxt if bcurrent else None
 
-    return dummy_head.nxt
+    return head.nxt
 
 
 solution = add_linklists

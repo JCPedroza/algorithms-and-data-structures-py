@@ -9,16 +9,17 @@ itself.
 
 ## Solve Add Two Numbers
 
-Write a function, `add_linklists`, that takes two `ListNode`s representing the digits
-of a number as arguments, and returns the sum of the two numbers as a `ListNode`.
+Write a function, `add_linklists`, that takes two linked lists implemented by
+`ListNode`s representing non-negative digits of a number as arguments, and returns
+the sum of the two numbers as a `ListNode` linked list.
 
 The linked list is implemented by the provided ListNode class.
 
 ```python
 class ListNode:
-    def __init__(self, val=0, next=None):
+    def __init__(self, val=0, nxt=None):
         self.val = val
-        self.next = next
+        self.nxt = next
 ```
 
 ## Function Signature

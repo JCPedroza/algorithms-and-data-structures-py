@@ -17,9 +17,12 @@ class ListNode:
 
         return anode is None and bnode is None
 
+    def __repr__(self) -> str:
+        return str(self)
+
     def __str__(self) -> str:
         current = self
-        numstr = ''
+        numstr = ""
 
         while current:
             numstr = str(current.val) + numstr
