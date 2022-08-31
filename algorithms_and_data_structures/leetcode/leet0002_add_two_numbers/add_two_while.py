@@ -1,13 +1,10 @@
-from typing import Optional
+from typing import Optional as Option
 from . import list_node
 
-ListNode = list_node.ListNode
+Node = list_node.ListNode
 
 
-def add_linklists(
-    anode: Optional[ListNode],
-    bnode: Optional[ListNode],
-) -> Optional[ListNode]:
+def add_linklists(anode: Option[Node], bnode: Option[Node]) -> Option[Node]:
     """Add two linked lists that represent digits in a number.
     Uses a while loop.
     Complexity: time O(n), space O(n).
@@ -18,7 +15,7 @@ def add_linklists(
 
     acurrent = anode
     bcurrent = bnode
-    head = ListNode(0)
+    head = Node(0)
     result = head
     carry = 0
 
@@ -29,7 +26,7 @@ def add_linklists(
         total = aval + bval + carry
         digit = total % 10
         carry = total // 10
-        node = ListNode(digit)
+        node = Node(digit)
         result.nxt = node
         result = result.nxt
 
