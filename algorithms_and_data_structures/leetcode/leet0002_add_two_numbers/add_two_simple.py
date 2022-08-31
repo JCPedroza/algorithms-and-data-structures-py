@@ -20,11 +20,11 @@ def add_linklists(anode: Option[Node], bnode: Option[Node]) -> Option[Node]:
 
             total = xval + yval + carry
             digit = total % 10
-            nxt_carry = total // 10
+            carrynxt = total // 10
 
             xnxt = xnode.nxt if xnode else None
             ynxt = ynode.nxt if ynode else None
-            return Node(digit, loop(xnxt, ynxt, nxt_carry))
+            return Node(digit, loop(xnxt, ynxt, carrynxt))
 
         return None
 
