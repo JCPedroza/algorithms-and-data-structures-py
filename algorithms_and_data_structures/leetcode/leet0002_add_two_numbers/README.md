@@ -53,7 +53,8 @@ out: 8 -> 9 -> 9 -> 0 -> 0 -> 0 -> 1
 
 ## Extra
 
-Implement the `__str__` and `__eq__` methods for the ListNode class.
+Implement the `__str__`, `__eq__`, and `__repr__` methods for the ListNode class. They
+will be helpful for testing and debugging.
 
 ## Resources
 
