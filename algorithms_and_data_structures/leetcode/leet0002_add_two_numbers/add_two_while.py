@@ -22,16 +22,14 @@ def add_linklists(anode: Option[Node], bnode: Option[Node]) -> Option[Node]:
     while acurrent or bcurrent or carry:
         aval = acurrent.val if acurrent else 0
         bval = bcurrent.val if bcurrent else 0
-
-        total = aval + bval + carry
-        digit = total % 10
-        carry = total // 10
-        node = Node(digit)
-        result.nxt = node
-        result = result.nxt
-
         acurrent = acurrent.nxt if acurrent else None
         bcurrent = bcurrent.nxt if bcurrent else None
+
+        total = aval + bval + carry
+        carry = total // 10
+        node = Node(total % 10)
+        result.nxt = node
+        result = result.nxt
 
     return buffer.nxt
 
