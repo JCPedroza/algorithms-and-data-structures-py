@@ -45,7 +45,7 @@ jobs:
       run: |
         poetry run flake8 . --count --show-source --statistics
 
-    - name: List with prospector
+    - name: Lint with prospector
       run: |
         poetry run prospector .
 
