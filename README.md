@@ -1,5 +1,9 @@
 # Python Algorithms & Data Structures
 
+[![linux build & tests][13]][14]
+[![codeql][15]][16]
+[![dependency review][17]][18]
+
 [![license MIT][9]][10]
 [![style black][11]][12]
 [![lint: flake8][1]][2]
@@ -92,6 +96,12 @@ You can find similar repositories for other languages in the following links:
 [10]: https://en.wikipedia.org/wiki/MIT_License
 [11]: https://img.shields.io/badge/code%20style-black-000000.svg
 [12]: https://github.com/psf/black
+[13]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/linux.yml/badge.svg
+[14]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/linux.yml
+[15]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/codeql.yml/badge.svg
+[16]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/codeql.yml
+[17]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/dependency.yml/badge.svg
+[18]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/dependency.yml
 
 [25]: https://img.shields.io/github/contributors/JCPedroza/algorithms-and-data-structures-py
 [26]: https://github.com/JCPedroza/algorithms-and-data-structures-py/graphs/contributors
