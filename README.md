@@ -4,6 +4,9 @@
 [![codeql][15]][16]
 [![dependency review][17]][18]
 
+[![python][19]][20]
+[![dependabot][21]][22]
+
 [![license MIT][9]][10]
 [![style black][11]][12]
 [![lint: flake8][1]][2]
@@ -102,6 +105,10 @@ You can find similar repositories for other languages in the following links:
 [16]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/codeql.yml
 [17]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/dependency.yml/badge.svg
 [18]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/dependency.yml
+[19]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[20]: https://github.com/python/cpython
+[21]: https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white
+[22]: https://github.com/JCPedroza/algorithms-and-data-structures-py/blob/main/.github/dependabot.yml
 
 [25]: https://img.shields.io/github/contributors/JCPedroza/algorithms-and-data-structures-py
 [26]: https://github.com/JCPedroza/algorithms-and-data-structures-py/graphs/contributors
