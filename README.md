@@ -94,8 +94,8 @@ You can find similar repositories for other languages in the following links:
 [6]: https://www.codacy.com/gh/JCPedroza/algorithms-and-data-structures-py/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/algorithms-and-data-structures-py&amp;utm_campaign=Badge_Grade
 [7]: https://www.codefactor.io/repository/github/jcpedroza/algorithms-and-data-structures-py/badge
 [8]: https://www.codefactor.io/repository/github/jcpedroza/algorithms-and-data-structures-py
-[9]: https://img.shields.io/github/license/jcpedroza/algorithms-and-data-structures-py
-[10]: https://en.wikipedia.org/wiki/MIT_License
+[9]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-py
+[10]: https://opensource.org/licenses/MIT
 [11]: https://img.shields.io/badge/code%20style-black-000000.svg
 [12]: https://github.com/psf/black
 [13]: https://github.com/JCPedroza/algorithms-and-data-structures-py/actions/workflows/linux.yml/badge.svg
