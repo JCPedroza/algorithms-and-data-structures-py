@@ -3,6 +3,7 @@
 # Ignore these directories
 .git/
 .github/
+.vscode/
 docs/
 
 # Ignore these files
@@ -11,3 +12,5 @@ LICENSE
 *.toml
 *.lock
 *.md
+*.yml
+*.yaml
