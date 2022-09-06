@@ -62,10 +62,13 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 
 - Package manager
   - [poetry][80]
+
 - Unit testing
   - [pytest][81]
+
 - Static type check
   - [mypy][82]
+
 - Style, linting, formatting, and other static analysis
   - [flake8][83]
   - [black][85]

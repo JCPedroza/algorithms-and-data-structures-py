@@ -16,8 +16,6 @@ components:
 - The implementation of the algorithm, or data structure, or solution itself
 - And the name of the implementation
 
-## Algorithms
+## Resources
 
-## Data Structures
-
-## Project Euler
+Resources.
