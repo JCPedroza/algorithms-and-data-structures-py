@@ -17,7 +17,7 @@ flake8 = "^4.0.1"
 mypy = "^0.971"
 prospector = "^1.7.7"
 pytest = "^7.1.1"
-black = "^22.8.0"
+black = "^22.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
