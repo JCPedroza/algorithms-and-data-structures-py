@@ -20,10 +20,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
+    - name: Set up Python 3.12
       uses: actions/setup-python@v3
       with:
-        python-version: "3.10"
+        python-version: "3.12"
 
     - name: Install poetry package and environment manager
       run: |
@@ -37,6 +37,10 @@ jobs:
       run: |
         poetry run mypy .
 
+    - name: Static type check with pyright
+      run: |
+        poetry run pyright .
+
     - name: Lint with black
       run: |
         poetry run black --check .
@@ -44,10 +48,6 @@ jobs:
     - name: Lint with flake8
       run: |
         poetry run flake8 . --count --show-source --statistics
-
-    - name: Lint with prospector
-      run: |
-        poetry run prospector .
 
     - name: Test with pytest
       run: |
