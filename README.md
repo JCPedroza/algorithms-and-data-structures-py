@@ -18,9 +18,7 @@ Algorithms and data structures implemented in Python. Here you'll find:
 - Implementations of algorithms and data structures
 - Solutions for problems, prompts, challenges, and popular interview questions
 
-## Usage
-
-### Installation
+## Installation
 
 To install the project dependencies, you can either use [poetry][80] and
 `poetry install` (recommended), or install the dependencies globally and manually using
@@ -32,14 +30,13 @@ cd algorithms-and-data-strcutrues-py
 poetry install # Install all packages in the local virtual environment
 ```
 
-### Unit Testing
+## Unit Testing
 
 ```bash
 poetry run pytest # Run al unit tests using local virtual environment
-pytest            # Run all unit tests using global environment
 ```
 
-### Other Poetry Commands
+## Other Poetry Commands
 
 ```bash
 poetry shell         # Activate shell inside local virtual environment
@@ -67,21 +64,12 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [pytest][81]
 
 - Static type check
+  - pyright
   - [mypy][82]
 
-- Style, linting, formatting, and other static analysis
+- Style, linting, formatting
   - [flake8][83]
   - [black][85]
-  - [prospector][84]
-
-## Similar Resources
-
-You can find similar repositories for other languages in the following links:
-
-- [Haskell][103]
-- [JavaScript][101]
-- [SML][104]
-- [OCaml][102]
 
 ---
 
