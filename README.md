@@ -18,52 +18,61 @@ Algorithms and data structures implemented in Python. Here you'll find:
 
 ## Installation
 
-With [poetry][80]:
+### With [poetry][80]:
 
 ```bash
+# Get repository
 git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.git
 cd algorithms-and-data-strcutrues-py
-poetry install
+
+# Install dependencies in local virtual environment
+poetry install  # Without a dot as argument
 ```
 
-With [venv][87] and [pip][86]:
+### With [venv][87] and [pip][86]:
 
 ```bash
-mkdir ads
-cd ads
-python -m venv venv-ads
-source source venv-ads/bin/activate
+# Create project directory
+mkdir algos-and-data  # Need a dir for env files
+cd algos-and-data
+
+# Create and activate local virtual environment
+python -m venv venv-algos-and-data  # Create local virtual environment
+source venv-ads/bin/activate        # Activate local virtual environment
+
+# Get repository
 git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.git
 cd algorithms-and-data-strcutrues-py
-python -m pip install .  # The dot is needed
+
+# Install dependencies in local virtual environment
+python -m pip install .  # The dot is required
 ```
 
 ## Unit Testing
 
-```bash
-poetry run pytest # Run al unit tests using local virtual environment
-```
-
-## Other Poetry Commands
+### With [poetry][80]:
 
 ```bash
-poetry shell         # Activate shell inside local virtual environment
-poetry run <command> # Run command inside local virtual environment
-poetry check         # Validate structure of pyproject.toml
+poetry run pytest  # Run al unit tests using local virtual environment
 ```
 
-## Contributing
+### With [venv][87] and [pip][86]:
 
-[![contributors][25]][26]
-[![commit activity][27]][28]
-[![issues][29]][30]
-[![issues closed][31]][32]
-[![issues pr][33]][34]
-[![issues pr closed][35]][36]
+With the local virtual environment activated:
 
-Code reviews, pull requests, issues, and discussions are always welcome!
+```bash
+python -m pytest  # With or without dot as argument
+```
 
-## Main Toolchain
+## Important Poetry Commands
+
+```bash
+poetry run <command>  # Run command inside local virtual environment
+poetry shell          # Activate shell inside local virtual environment
+poetry check          # Validate structure of pyproject.toml
+```
+
+## Toolchain Overview
 
 - Package manager
   - [poetry][80]
@@ -80,6 +89,13 @@ Code reviews, pull requests, issues, and discussions are always welcome!
   - [black][85]
 
 ## Contributing
+
+[![contributors][25]][26]
+[![commit activity][27]][28]
+[![issues][29]][30]
+[![issues closed][31]][32]
+[![issues pr][33]][34]
+[![issues pr closed][35]][36]
 
 Found a bug, typo, or mistake? Want to refactor, optimize, or improve something in this
 repository? **Send a pull request! Pull requests are always welcome!**
