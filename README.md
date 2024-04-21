@@ -1,12 +1,10 @@
 # Python Algorithms & Data Structures
 
+[![python][19]][20]
+[![license MIT][9]][10]
 [![linux build & tests][13]][14]
 [![codeql][15]][16]
 
-[![python][19]][20]
-[![dependabot][21]][22]
-
-[![license MIT][9]][10]
 [![style black][11]][12]
 [![lint: flake8][1]][2]
 [![test: pytest][3]][4]
@@ -20,14 +18,24 @@ Algorithms and data structures implemented in Python. Here you'll find:
 
 ## Installation
 
-To install the project dependencies, you can either use [poetry][80] and
-`poetry install` (recommended), or install the dependencies globally and manually using
-`pip install <dependencies>` and the dependency list in `pyproject.toml`.
+With [poetry][80]:
 
 ```bash
 git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.git
 cd algorithms-and-data-strcutrues-py
-poetry install # Install all packages in the local virtual environment
+poetry install
+```
+
+With [venv][87] and [pip][86]:
+
+```bash
+mkdir ads
+cd ads
+python -m venv venv-ads
+source source venv-ads/bin/activate
+git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.gitcd
+cd algorithms-and-data-strcutrues-py
+python -m pip install .  # The dot is needed
 ```
 
 ## Unit Testing
@@ -70,6 +78,15 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 - Style, linting, formatting
   - [flake8][83]
   - [black][85]
+
+## Contributing
+
+Found a bug, typo, or mistake? Want to refactor, optimize, or improve something in this
+repository? **Send a pull request! Pull requests are always welcome!**
+
+There's no need to create an issue. Just use a descriptive commit message and I'll
+format it adequately when accepting the pull request. Contributing here is as simple
+as commiting your changes and sending a pull request!
 
 ---
 
@@ -124,8 +141,5 @@ Code reviews, pull requests, issues, and discussions are always welcome!
 [83]: https://flake8.pycqa.org/
 [84]: https://prospector.landscape.io/en/master/
 [85]: https://black.readthedocs.io/en/stable/the_black_code_style/index.html
-
-[101]: https://github.com/JCPedroza/algorithms-and-data-structures-js
-[102]: https://github.com/JCPedroza/algorithms-and-data-structures-ocaml
-[103]: https://github.com/JCPedroza/algorithms-and-data-structures-hs
-[104]: https://github.com/JCPedroza/algorithms-and-data-structures-sml
+[86]: https://github.com/pypa/pip
+[87]: https://docs.python.org/3/library/venv.html
