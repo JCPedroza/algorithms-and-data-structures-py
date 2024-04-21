@@ -85,7 +85,6 @@ You can find similar repositories for other languages in the following links:
 
 ---
 
-[![total lines][51]][52]
 [![code size][53]][54]
 [![repo size][55]][56]
 
