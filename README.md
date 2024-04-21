@@ -33,7 +33,7 @@ mkdir ads
 cd ads
 python -m venv venv-ads
 source source venv-ads/bin/activate
-git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.gitcd
+git clone https://github.com/JCPedroza/algorithms-and-data-structures-py.git
 cd algorithms-and-data-strcutrues-py
 python -m pip install .  # The dot is needed
 ```
