@@ -3,11 +3,11 @@ from . import queue_list
 test_subjects = [queue_list]
 
 
-def validate_state(queue, exp_len, exp_is_empty, exp_peek=""):
+def validate_state(queue, exp_len: int, exp_is_empty: bool, exp_peek: int = 0) -> None:
     assert len(queue) == exp_len
     assert queue.is_empty() == exp_is_empty
 
-    if exp_peek and not queue.is_empty():
+    if not queue.is_empty():
         assert queue.peek() == exp_peek
 
 
