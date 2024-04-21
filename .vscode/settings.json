@@ -1,6 +1,4 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.rulers": [
