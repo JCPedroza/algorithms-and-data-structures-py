@@ -14,7 +14,7 @@ python = "^3.10"
 numpy = "^1.26.4"
 
 # static type check
-mypy = "^1.9"
+mypy = "^1.10"
 pyright = "^1.1.359"
 
 # lint & style
