@@ -22,7 +22,7 @@ black = "^24.4.0"
 flake8 = "^7.0.0"
 
 # unit test
-pytest = "^8.1.1"  # unit test
+pytest = "^8.2.1"  # unit test
 
 # remove bitcode
 pyclean = "^3.0.0"
